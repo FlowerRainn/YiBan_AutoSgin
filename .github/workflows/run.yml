@@ -2,9 +2,9 @@ name: 定时运行
 
 on:
   workflow_dispatch:
-  # 定时执行
-  # schedule:
-  #   - cron: "0 0 22 * *"
+   定时执行
+   schedule:
+     - cron: "5 0 22 * * * *"
 
 env:
   TZ: Asia/Shanghai # 时区
